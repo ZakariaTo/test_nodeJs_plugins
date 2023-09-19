@@ -6,6 +6,7 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'NodeJS14') {
                     sh 'npm config ls'
+		    sh 'npm install'
                 }
             }
         }
