@@ -1,0 +1,6 @@
+{
+	"name": "nodejs",
+	"dependencies": {
+	   "oracledb": "^6.1.0"
+         }
+}

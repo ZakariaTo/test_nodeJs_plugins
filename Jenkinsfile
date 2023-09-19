@@ -6,6 +6,7 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'Nodejs18') {
                     sh 'npm config ls'
+		    sh 'npm install'
                 }
             }
         }
