@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                nodejs(nodeJSInstallationName: 'Node 18.x') {
+                nodejs(nodeJSInstallationName: 'Nodejs18') {
                     sh 'npm config ls'
                 }
             }
