@@ -1,10 +1,11 @@
 pipeline {
     agent any
-
     stages {
-        steps {
+        stage("WORSKAPCE") {
+            steps {
             node {
                 echo "WORSKAPCE : ${env.WORKSPACE}"
+                }
             }
         }
     }
