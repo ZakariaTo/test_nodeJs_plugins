@@ -1,7 +1,11 @@
 pipeline {
     agent any
 
-    node {
-        echo "WORSKAPCE : ${env.WORKSPACE}"
+    stages {
+        steps {
+            node {
+                echo "WORSKAPCE : ${env.WORKSPACE}"
+            }
+        }
     }
 }
